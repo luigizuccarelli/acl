@@ -31,7 +31,7 @@ public class SimpleService implements ExecInterface {
       bRunning = true;
       json = new JsonFormat();
       json.setMap(map);
-      response = new String("{ \"msg\":\"hello testing one tow three\"}");
+      response = new String("{ \"msg\":\"hello testing one two three\"}");
     } catch (Exception e) {
       e.printStackTrace();
       response = json.message("ERROR " + e.toString(), "KO");
